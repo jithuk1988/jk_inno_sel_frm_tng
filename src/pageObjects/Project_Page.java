@@ -2,6 +2,7 @@ package pageObjects;
 import org.openqa.selenium.*;
 import org.testng.Reporter;
 
+import utility.Constant;
 import utility.Log;
 public class Project_Page extends BaseClass {
 	 private static WebElement element = null;
@@ -109,36 +110,32 @@ public class Project_Page extends BaseClass {
        		}
        	return element;
         }
+		public static WebElement pro_savedProTitle() throws Exception{
+    	try{
+    		String protitle=Constant.proname;
+    		String titlexpath=".//div[text()='"+Constant.proname+"']";
+            element = driver.findElement(By.xpath(titlexpath));
+            Log.info(protitle+" found in UI");
+    	}catch (Exception e){
+       		Log.error("Project title not found in UI");
+       		throw(e);
+       		}
+       	return element;
+        }
+		public static WebElement pro_detailsSideMenu() throws Exception{
+    	try{
+    		
+            element = driver.findElement(By.xpath(".//tr/td/div[text()='Details']"));
+            Log.info("Details menu found in UI");
+    	}catch (Exception e){
+       		Log.error("Project Details side menu not found in UI");
+       		throw(e);
+       		}
+       	return element;
+        }
 /*
 
-  WebElement projectcat=driver.findElement(By.xpath("//input[starts-with(@id,'richcombo') and @name='categoryId']"));
-              projectcat.click();
-              WebElement projectcatsel=driver.findElement(By.xpath("//*[@class='x-list-plain']/li[contains(text(),'Auto Category')]"));
-              projectcatsel.click();
-            //  Thread.sleep(3000); 
-              WebElement projectdep=driver.findElement(By.xpath(".//input[starts-with(@id,'richcombo') and @name='parentId']"));
-              projectdep.sendKeys("Program 01"); 
-      		  //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='x-list-plain']/li[contains(text(),'Program 01')]")));
-        
-      		 // WebElement projectdepsel=driver.findElement(By.xpath("//*[@class='x-list-plain']/li[contains(text(),'Program 01')]"));
-      		//WebElement element = driver.findElement(By.xpath("//*[@class='x-list-plain']/li[contains(text(),'Program 01')]"));
-      		//Actions actions = new Actions(driver);
-      		//actions.moveToElement(element).click().perform();
-      		//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='x-list-plain']/li[contains(text(),'Program 01')]")));
-      		  //projectdepsel.click();
-              WebElement projectdate=driver.findElement(By.xpath("//input[starts-with(@id,'datefield')]"));
-              projectdate.click();
-              WebElement projectnext=driver.findElement(By.xpath("//span[text()='Next']"));
-              projectnext.click();
-              Thread.sleep(3000); 
-              WebElement projecttitle=driver.findElement(By.xpath("//textarea[@name='title']"));
-              projecttitle.sendKeys(proname);
-              //Thread.sleep(3000); 
-              WebElement projectstatus=driver.findElement(By.xpath("//*[@name='LLStatusId']"));
-              projectstatus.click();
-              WebElement projectstatussel=driver.findElement(By.xpath("//div[contains(text(),'Hold')]"));
-              projectstatussel.click();
-              WebElement projectsave=driver.findElement(By.xpath("//span[text()='Save']"));
+ 
 
 
 */

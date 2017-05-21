@@ -1,104 +1,99 @@
-
-2017-05-21 18:52:29,309 INFO  [Log] **************************************************************************************** 
-2017-05-21 18:52:29,371 INFO  [Log] **************************************************************************************** 
-2017-05-21 18:52:29,371 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2017-05-21 18:52:29,371 INFO  [Log] **************************************************************************************** 
-2017-05-21 18:52:29,371 INFO  [Log] **************************************************************************************** 
-2017-05-21 18:52:49,885 INFO  [Log] New driver instantiated 
-2017-05-21 18:52:50,333 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2017-05-21 18:52:58,629 INFO  [Log] Web application launched successfully 
-2017-05-21 18:52:58,835 INFO  [Log] Username text box is found on the Login Page 
-2017-05-21 18:52:59,040 INFO  [Log] v5new6auto is entered in UserName text box 
-2017-05-21 18:52:59,050 INFO  [Log] Password text box is found on the Login page 
-2017-05-21 18:52:59,130 INFO  [Log] innotas is entered in Password text box 
-2017-05-21 18:52:59,175 INFO  [Log] Submit button is found on the Login page 
-2017-05-21 18:53:05,342 INFO  [Log] Click action is performed on Submit button 
-2017-05-21 18:53:40,390 INFO  [Log] Timesheet Page Loaded after login 
-2017-05-21 18:53:40,390 INFO  [Log] SignIn Action Completed 
-2017-05-21 18:53:40,491 INFO  [Log] Project Entity link is found under Top Navigation 
-2017-05-21 18:53:40,977 INFO  [Log] Click action is performed on the selected Product Type 
-2017-05-21 18:53:40,978 INFO  [Log] Project Entity page is opened 
-2017-05-21 18:53:49,011 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2017-05-21 18:53:49,011 INFO  [Log] X 
-2017-05-21 18:53:49,011 INFO  [Log] X 
-2017-05-21 18:53:49,011 INFO  [Log] X 
-2017-05-21 18:53:49,011 INFO  [Log] X 
-2017-05-21 19:37:53,787 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:37:53,788 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:37:53,788 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2017-05-21 19:37:53,788 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:37:53,788 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:38:11,192 INFO  [Log] New driver instantiated 
-2017-05-21 19:38:11,212 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2017-05-21 19:38:18,760 INFO  [Log] Web application launched successfully 
-2017-05-21 19:38:18,947 INFO  [Log] Username text box is found on the Login Page 
-2017-05-21 19:38:19,146 INFO  [Log] v5new6auto is entered in UserName text box 
-2017-05-21 19:38:19,156 INFO  [Log] Password text box is found on the Login page 
-2017-05-21 19:38:20,058 INFO  [Log] innotas is entered in Password text box 
-2017-05-21 19:38:20,074 INFO  [Log] Submit button is found on the Login page 
-2017-05-21 19:38:23,638 INFO  [Log] Click action is performed on Submit button 
-2017-05-21 19:38:58,684 INFO  [Log] Timesheet Page Loaded after login 
-2017-05-21 19:38:58,684 INFO  [Log] SignIn Action Completed 
-2017-05-21 19:38:58,755 INFO  [Log] Project Entity link is found under Top Navigation 
-2017-05-21 19:38:59,204 INFO  [Log] Click action is performed on the selected Product Type 
-2017-05-21 19:38:59,204 INFO  [Log] Project Entity page is opened 
-2017-05-21 19:39:07,365 INFO  [Log] New Button found on the page 
-2017-05-21 19:39:07,448 INFO  [Log] New Button Clicked 
-2017-05-21 19:39:10,466 INFO  [Log] Category Combobox found on the New Dialog 
-2017-05-21 19:39:10,724 INFO  [Log] Project category combo Clicked 
-2017-05-21 19:39:11,105 INFO  [Log] Category List found on the New Dialog 
-2017-05-21 19:39:11,274 INFO  [Log] Project Auto category Selected 
-2017-05-21 19:39:11,299 INFO  [Log] Program Combobox found on the New Dialog 
-2017-05-21 19:39:11,441 INFO  [Log] Project Program combo Clicked 
-2017-05-21 19:39:11,457 INFO  [Log] Program List found on the New Dialog 
-2017-05-21 19:39:11,659 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2017-05-21 19:39:11,659 INFO  [Log] X 
-2017-05-21 19:39:11,659 INFO  [Log] X 
-2017-05-21 19:39:11,659 INFO  [Log] X 
-2017-05-21 19:39:11,659 INFO  [Log] X 
-2017-05-21 19:43:54,651 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:43:54,652 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:43:54,652 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$ 
-2017-05-21 19:43:54,652 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:43:54,652 INFO  [Log] **************************************************************************************** 
-2017-05-21 19:44:04,387 INFO  [Log] New driver instantiated 
-2017-05-21 19:44:05,118 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
-2017-05-21 19:44:10,190 INFO  [Log] Web application launched successfully 
-2017-05-21 19:44:10,353 INFO  [Log] Username text box is found on the Login Page 
-2017-05-21 19:44:10,504 INFO  [Log] v5new6auto is entered in UserName text box 
-2017-05-21 19:44:10,515 INFO  [Log] Password text box is found on the Login page 
-2017-05-21 19:44:10,572 INFO  [Log] innotas is entered in Password text box 
-2017-05-21 19:44:10,606 INFO  [Log] Submit button is found on the Login page 
-2017-05-21 19:44:15,949 INFO  [Log] Click action is performed on Submit button 
-2017-05-21 19:44:50,972 INFO  [Log] Timesheet Page Loaded after login 
-2017-05-21 19:44:50,972 INFO  [Log] SignIn Action Completed 
-2017-05-21 19:44:51,036 INFO  [Log] Project Entity link is found under Top Navigation 
-2017-05-21 19:44:51,288 INFO  [Log] Click action is performed on the selected Product Type 
-2017-05-21 19:44:51,288 INFO  [Log] Project Entity page is opened 
-2017-05-21 19:44:59,416 INFO  [Log] New Button found on the page 
-2017-05-21 19:44:59,501 INFO  [Log] New Button Clicked 
-2017-05-21 19:45:02,516 INFO  [Log] Category Combobox found on the New Dialog 
-2017-05-21 19:45:02,742 INFO  [Log] Project category combo Clicked 
-2017-05-21 19:45:05,758 INFO  [Log] Category List found on the New Dialog 
-2017-05-21 19:45:05,925 INFO  [Log] Project Auto category Selected 
-2017-05-21 19:45:05,946 INFO  [Log] Program Combobox found on the New Dialog 
-2017-05-21 19:45:06,083 INFO  [Log] Project Program combo Clicked 
-2017-05-21 19:45:09,099 INFO  [Log] Program List found on the New Dialog 
-2017-05-21 19:45:09,161 INFO  [Log] Project Program- Program 01 Selected 
-2017-05-21 19:45:09,180 INFO  [Log] Next Button found on the New Dialog 
-2017-05-21 19:45:09,348 INFO  [Log] Project New Dialog Next button Clicked 
-2017-05-21 19:45:12,102 INFO  [Log] Title field found on the New Dialog 
-2017-05-21 19:45:14,379 INFO  [Log] Project Title field cleared 
-2017-05-21 19:45:14,396 INFO  [Log] Title field found on the New Dialog 
-2017-05-21 19:45:14,627 INFO  [Log] Auto Project Sun May 21 19:44:59 IST 2017 is entered in Project Title text box 
-2017-05-21 19:45:14,646 INFO  [Log] Status Combobox found on the New Dialog 
-2017-05-21 19:45:15,207 INFO  [Log] Project Status combo Clicked 
-2017-05-21 19:45:15,231 INFO  [Log] Status List found on the New Dialog 
-2017-05-21 19:45:15,701 INFO  [Log] Project Status- Hold Selected 
-2017-05-21 19:45:15,720 INFO  [Log] Save Button found on the New Dialog 
-2017-05-21 19:45:16,364 INFO  [Log] Project Save button clicked 
-2017-05-21 19:45:36,403 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
-2017-05-21 19:45:36,403 INFO  [Log] X 
-2017-05-21 19:45:36,403 INFO  [Log] X 
-2017-05-21 19:45:36,403 INFO  [Log] X 
-2017-05-21 19:45:36,403 INFO  [Log] X 
+2017-05-21 22:27:39,251 INFO  [Log] New driver instantiated 
+2017-05-21 22:27:39,335 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-05-21 22:27:46,300 INFO  [Log] Web application launched successfully 
+2017-05-21 22:27:46,436 INFO  [Log] Username text box is found on the Login Page 
+2017-05-21 22:27:46,511 INFO  [Log] v5new6auto is entered in UserName text box 
+2017-05-21 22:27:46,520 INFO  [Log] Password text box is found on the Login page 
+2017-05-21 22:27:46,569 INFO  [Log] innotas is entered in Password text box 
+2017-05-21 22:27:46,624 INFO  [Log] Submit button is found on the Login page 
+2017-05-21 22:27:52,855 INFO  [Log] Click action is performed on Submit button 
+2017-05-21 22:28:27,900 INFO  [Log] Timesheet Page Loaded after login 
+2017-05-21 22:28:27,900 INFO  [Log] SignIn Action Completed 
+2017-05-21 22:28:27,975 INFO  [Log] Project Entity link is found under Top Navigation 
+2017-05-21 22:28:28,229 INFO  [Log] Click action is performed on the selected Product Type 
+2017-05-21 22:28:28,229 INFO  [Log] Project Entity page is opened 
+2017-05-21 22:28:36,331 INFO  [Log] New Button found on the page 
+2017-05-21 22:28:36,414 INFO  [Log] New Button Clicked 
+2017-05-21 22:28:39,429 INFO  [Log] Category Combobox found on the New Dialog 
+2017-05-21 22:28:39,647 INFO  [Log] Project category combo Clicked 
+2017-05-21 22:28:42,670 INFO  [Log] Category List found on the New Dialog 
+2017-05-21 22:28:42,887 INFO  [Log] Project Auto category Selected 
+2017-05-21 22:28:42,920 INFO  [Log] Program Combobox found on the New Dialog 
+2017-05-21 22:28:43,062 INFO  [Log] Project Program combo Clicked 
+2017-05-21 22:28:46,076 INFO  [Log] Program List found on the New Dialog 
+2017-05-21 22:28:46,139 INFO  [Log] Project Program- Program 01 Selected 
+2017-05-21 22:28:46,156 INFO  [Log] Next Button found on the New Dialog 
+2017-05-21 22:28:46,348 INFO  [Log] Project New Dialog Next button Clicked 
+2017-05-21 22:28:48,326 INFO  [Log] Title field found on the New Dialog 
+2017-05-21 22:28:49,700 INFO  [Log] Project Title field cleared 
+2017-05-21 22:28:49,720 INFO  [Log] Title field found on the New Dialog 
+2017-05-21 22:28:49,890 INFO  [Log] Auto Project Sun May 21 22:28:36 IST 2017 is entered in Project Title text box 
+2017-05-21 22:28:49,909 INFO  [Log] Status Combobox found on the New Dialog 
+2017-05-21 22:28:50,447 INFO  [Log] Project Status combo Clicked 
+2017-05-21 22:28:50,465 INFO  [Log] Status List found on the New Dialog 
+2017-05-21 22:28:50,965 INFO  [Log] Project Status- Hold Selected 
+2017-05-21 22:28:50,981 INFO  [Log] Save Button found on the New Dialog 
+2017-05-21 22:28:51,681 INFO  [Log] Project Save button clicked 
+2017-05-21 22:29:11,703 INFO  [Log] Auto Project Sun May 21 22:28:36 IST 2017 found in UI 
+2017-05-21 22:29:11,723 INFO  [Log] Auto Project Sun May 21 22:28:36 IST 2017 
+2017-05-21 22:29:11,742 INFO  [Log] Auto Project Sun May 21 22:28:36 IST 2017 found in UI 
+2017-05-21 22:29:11,762 ERROR [Log] Project Title not showing in UI 
+2017-05-21 22:29:11,777 INFO  [Log] Details menu found in UI 
+2017-05-21 22:29:12,024 INFO  [Log] Project Details tab clicked 
+2017-05-21 22:29:12,107 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-05-21 22:29:12,107 INFO  [Log] X 
+2017-05-21 22:29:12,107 INFO  [Log] X 
+2017-05-21 22:29:12,107 INFO  [Log] X 
+2017-05-21 22:29:12,107 INFO  [Log] X 
+2017-05-21 22:32:36,422 INFO  [Log] **************************************************************************************** 
+2017-05-21 22:32:36,422 INFO  [Log] **************************************************************************************** 
+2017-05-21 22:32:36,422 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-05-21 22:32:36,423 INFO  [Log] **************************************************************************************** 
+2017-05-21 22:32:36,423 INFO  [Log] **************************************************************************************** 
+2017-05-21 22:32:55,118 INFO  [Log] New driver instantiated 
+2017-05-21 22:32:55,159 INFO  [Log] Implicit wait applied on the driver for 10 seconds 
+2017-05-21 22:32:59,939 INFO  [Log] Web application launched successfully 
+2017-05-21 22:33:00,077 INFO  [Log] Username text box is found on the Login Page 
+2017-05-21 22:33:00,183 INFO  [Log] v5new6auto is entered in UserName text box 
+2017-05-21 22:33:00,195 INFO  [Log] Password text box is found on the Login page 
+2017-05-21 22:33:00,254 INFO  [Log] innotas is entered in Password text box 
+2017-05-21 22:33:00,274 INFO  [Log] Submit button is found on the Login page 
+2017-05-21 22:33:05,559 INFO  [Log] Click action is performed on Submit button 
+2017-05-21 22:33:40,615 INFO  [Log] Timesheet Page Loaded after login 
+2017-05-21 22:33:40,615 INFO  [Log] SignIn Action Completed 
+2017-05-21 22:33:40,665 INFO  [Log] Project Entity link is found under Top Navigation 
+2017-05-21 22:33:40,905 INFO  [Log] Click action is performed on the selected Product Type 
+2017-05-21 22:33:40,905 INFO  [Log] Project Entity page is opened 
+2017-05-21 22:33:49,116 INFO  [Log] New Button found on the page 
+2017-05-21 22:33:49,207 INFO  [Log] New Button Clicked 
+2017-05-21 22:33:52,223 INFO  [Log] Category Combobox found on the New Dialog 
+2017-05-21 22:33:52,451 INFO  [Log] Project category combo Clicked 
+2017-05-21 22:33:55,469 INFO  [Log] Category List found on the New Dialog 
+2017-05-21 22:33:55,652 INFO  [Log] Project Auto category Selected 
+2017-05-21 22:33:55,689 INFO  [Log] Program Combobox found on the New Dialog 
+2017-05-21 22:33:55,841 INFO  [Log] Project Program combo Clicked 
+2017-05-21 22:33:58,859 INFO  [Log] Program List found on the New Dialog 
+2017-05-21 22:33:58,925 INFO  [Log] Project Program- Program 01 Selected 
+2017-05-21 22:33:58,941 INFO  [Log] Next Button found on the New Dialog 
+2017-05-21 22:33:59,152 INFO  [Log] Project New Dialog Next button Clicked 
+2017-05-21 22:34:03,056 INFO  [Log] Title field found on the New Dialog 
+2017-05-21 22:34:03,149 INFO  [Log] Project Title field cleared 
+2017-05-21 22:34:03,168 INFO  [Log] Title field found on the New Dialog 
+2017-05-21 22:34:03,410 INFO  [Log] Auto Project Sun May 21 22:33:48 IST 2017 is entered in Project Title text box 
+2017-05-21 22:34:03,803 INFO  [Log] Status Combobox found on the New Dialog 
+2017-05-21 22:34:04,008 INFO  [Log] Project Status combo Clicked 
+2017-05-21 22:34:04,025 INFO  [Log] Status List found on the New Dialog 
+2017-05-21 22:34:04,469 INFO  [Log] Project Status- Hold Selected 
+2017-05-21 22:34:04,492 INFO  [Log] Save Button found on the New Dialog 
+2017-05-21 22:34:05,130 INFO  [Log] Project Save button clicked 
+2017-05-21 22:34:25,149 INFO  [Log] Auto Project Sun May 21 22:33:48 IST 2017 found in UI 
+2017-05-21 22:34:25,167 INFO  [Log] Auto Project Sun May 21 22:33:48 IST 2017 
+2017-05-21 22:34:25,183 INFO  [Log] Auto Project Sun May 21 22:33:48 IST 2017 found in UI 
+2017-05-21 22:34:25,198 INFO  [Log] Project title verified 
+2017-05-21 22:34:25,212 INFO  [Log] Details menu found in UI 
+2017-05-21 22:34:25,406 INFO  [Log] Project Details tab clicked 
+2017-05-21 22:34:25,440 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-05-21 22:34:25,440 INFO  [Log] X 
+2017-05-21 22:34:25,440 INFO  [Log] X 
+2017-05-21 22:34:25,440 INFO  [Log] X 
+2017-05-21 22:34:25,440 INFO  [Log] X 

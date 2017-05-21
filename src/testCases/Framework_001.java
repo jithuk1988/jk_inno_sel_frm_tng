@@ -75,6 +75,7 @@ public class Framework_001{
 		SignIn_Action.Execute(iTestCaseRow);
 		ProjectCreation.proNavigation(iTestCaseRow);
 		ProjectCreation.proCreation(iTestCaseRow);
+		ProjectCreation.proVerify(iTestCaseRow);
 	//	Home_Page.inn_Home(iTestCaseRow);
 		// This action is to select the Product category from the Top Navigation of the Home Page
 		// I have converted this in to a module, as there are so many logics involved in to this selection
@@ -131,7 +132,7 @@ public class Framework_001{
 	    // Printing beautiful logs to end the test case
 	    Log.endTestCase(sTestCaseName);
 	    // Closing the opened driver
-	    driver.close();
+//  driver.close();
   		}
 
 }

@@ -1,5 +1,7 @@
 package appModules;
 
+import com.google.common.base.MoreObjects.ToStringHelper;
+
 import pageObjects.Home_Page;
 import pageObjects.LogIn_Page;
 import pageObjects.ProductListing_Page;
@@ -91,6 +93,30 @@ public class ProjectCreation {
 		    // You may like to print some information here, in case of exception
 			throw(e);
 			}
-		}
+	}
+		public static void proVerify(int iTestCaseRow) throws Exception{
+			try{
+				Log.info(Project_Page.pro_savedProTitle().getText());
+				if(Project_Page.pro_savedProTitle().getText().equals(Constant.proname))
+				{
+					 Log.info("Project title verified" );
+				}
+				else
+				{
+					Log.error("Project Title not showing in UI");
+				}
+				Project_Page.pro_detailsSideMenu().click();
+				 Log.info("Project Details tab clicked" );
+				 
+			}
+			catch(Exception e){
+				
+				// Here I have used this as just for the sake of an example
+				// I am just catching the Exception and again throwing it back to the Main testcase, without handling it
+			    // You may like to print some information here, in case of exception
+				throw(e);
+				}
+			}
+		
 
 	}
