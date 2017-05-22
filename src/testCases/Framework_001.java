@@ -11,10 +11,10 @@ import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
 import utility.Utils;
-import appModules.CheckOut_Action;
+import appModules.ProjectUpdate_Action;
 import appModules.Confirmation_Action;
 import appModules.PaymentDetails_Action;
-import appModules.ProjectCreation;
+import appModules.ProjectCreation_Action;
 import appModules.SignIn_Action;
 import appModules.Verification_Action;
 
@@ -73,9 +73,10 @@ public class Framework_001{
 		// This is called Modularization, when we club series of actions in to one Module
 		// For Modular Driven Framework, please see http://www.toolsqa.com/modular-driven/  
 		SignIn_Action.Execute(iTestCaseRow);
-		ProjectCreation.proNavigation(iTestCaseRow);
-		ProjectCreation.proCreation(iTestCaseRow);
-		ProjectCreation.proVerify(iTestCaseRow);
+		ProjectCreation_Action.proNavigation(iTestCaseRow);
+		ProjectCreation_Action.proCreation(iTestCaseRow);
+		ProjectCreation_Action.proVerify(iTestCaseRow);
+		ProjectUpdate_Action.projectDetailsUpdate(iTestCaseRow);
 	//	Home_Page.inn_Home(iTestCaseRow);
 		// This action is to select the Product category from the Top Navigation of the Home Page
 		// I have converted this in to a module, as there are so many logics involved in to this selection

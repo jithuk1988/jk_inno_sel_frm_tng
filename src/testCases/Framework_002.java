@@ -7,15 +7,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import pageObjects.BaseClass;
-import pageObjects.ProductListing_Page;
+import pageObjects.Project_Update_Page;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
 import utility.Utils;
-import appModules.CheckOut_Action;
+import appModules.ProjectUpdate_Action;
 import appModules.Confirmation_Action;
 import appModules.PaymentDetails_Action;
-import appModules.ProjectCreation;
+import appModules.ProjectCreation_Action;
 import appModules.SignIn_Action;
 import appModules.Verification_Action;
 
@@ -40,10 +40,10 @@ public class Framework_002 {
   public void f() throws Exception {
 	  try{
 		SignIn_Action.Execute(iTestCaseRow);
-		ProjectCreation.proNavigation(iTestCaseRow);
-		ProjectCreation.proCreation(iTestCaseRow);
-		ProductListing_Page.PopUpAddToCart.btn_GoToCart().click();
-		CheckOut_Action.Execute();
+		ProjectCreation_Action.proNavigation(iTestCaseRow);
+		ProjectCreation_Action.proCreation(iTestCaseRow);
+		Project_Update_Page.PopUpAddToCart.btn_GoToCart().click();
+		//ProjectUpdate_Action.Execute();
 		PaymentDetails_Action.execute(iTestCaseRow);
 		Confirmation_Action.Execute();
 		Verification_Action.Execute();
