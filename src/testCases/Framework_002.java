@@ -17,7 +17,7 @@ import appModules.Confirmation_Action;
 import appModules.PaymentDetails_Action;
 import appModules.ProjectCreation_Action;
 import appModules.SignIn_Action;
-import appModules.Verification_Action;
+import appModules.StaffingAddRole_Action;
 
 public class Framework_002 {
 	public WebDriver driver;
@@ -46,7 +46,7 @@ public class Framework_002 {
 		//ProjectUpdate_Action.Execute();
 		PaymentDetails_Action.execute(iTestCaseRow);
 		Confirmation_Action.Execute();
-		Verification_Action.Execute();
+	//	StaffingAddRole_Action.Execute();
 		ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
 	  }catch (Exception e){
 		  ExcelUtils.setCellData("Fail", iTestCaseRow, Constant.Col_Result);

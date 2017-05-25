@@ -16,7 +16,7 @@ import appModules.Confirmation_Action;
 import appModules.PaymentDetails_Action;
 import appModules.ProjectCreation_Action;
 import appModules.SignIn_Action;
-import appModules.Verification_Action;
+import appModules.StaffingAddRole_Action;
 
 public class Framework_001{
 	public WebDriver driver;
@@ -77,6 +77,7 @@ public class Framework_001{
 		ProjectCreation_Action.proCreation(iTestCaseRow);
 		ProjectCreation_Action.proVerify(iTestCaseRow);
 		ProjectUpdate_Action.projectDetailsUpdate(iTestCaseRow);
+		StaffingAddRole_Action.Execute(iTestCaseRow);
 	//	Home_Page.inn_Home(iTestCaseRow);
 		// This action is to select the Product category from the Top Navigation of the Home Page
 		// I have converted this in to a module, as there are so many logics involved in to this selection
